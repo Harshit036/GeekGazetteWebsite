@@ -1,0 +1,280 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: url('img/pexels-lumn-316466.jpg') no-repeat center center/cover;
+    background-attachment: fixed;
+}
+
+/* Navbar */
+
+.header {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.541);
+    top: 0;
+   
+}
+
+/* Logo */
+
+.left {
+    width: 58px;
+    height: 58px;
+    /* border: 2px solid green; */
+}
+
+.left img {
+    width: 9rem;
+    cursor: pointer;
+    filter: invert(100%);
+}
+
+/* Navbar */
+
+.mid {
+    display: inline-block;
+    position: relative;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar li a {
+    padding: 10px 30px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+.navbar li a:hover {
+    color: rgb(153, 151, 151);
+}
+
+/* Contact Us in Navbar */
+
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.right a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 6px;
+    background-color: rgb(110, 110, 231);
+    border-radius: 14px;
+}
+.right a:hover{
+    background-color: rgb(190, 190, 241);
+}
+/* Home */
+#home{
+    margin-top: 20px;
+    width: 70%;
+    margin: auto;
+}
+#home h1{
+    font-size: 4rem;
+    font-family: 'Alegreya', serif;
+    color: rgb(15, 148, 135);
+    padding-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+}
+#home p{
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+
+
+/* Cells */
+
+#cells {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    width: 75%;
+    height: 25%;
+    /* margin:auto; */
+    background-color: rgba(188, 189, 189, 0.794);
+    margin: 5px auto;
+    /* display: flex; */
+}
+
+.item img {
+    width: 21rem;
+    height: 21rem;
+    padding: 1px;
+}
+
+.item img:hover {
+    box-shadow: 0 0 6px rgb(35 173 255);
+}
+
+.webD img {
+    width: 24rem;
+    height: 21rem;
+}
+
+.editorial img {
+    float: right;
+}
+
+.design img {
+    float: left;
+}
+
+.finance img {
+    float: right;
+}
+
+.webD img {
+    float: left;
+}
+
+.item h1 {
+    font-size: 4rem;
+    font-family: 'Alegreya', serif;
+    /* color: rgb(15, 148, 135); */
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.item p {
+    display: inline;
+    font-size: 1.9rem;
+    padding: 10px 20px 10px 20px;
+}
+
+/* Our Work */
+
+/* .work{
+    width: 100%;
+} */
+
+.imageswork {
+    display: inline-block;
+    width: 93%;
+    height: 50%;
+    margin: auto 12rem;
+}
+
+#work img {
+    /* display: inline-block;   */
+    padding: 0px;
+    margin: 20px;
+    width: 21rem;
+    height: 19rem;
+}
+
+#work img:hover {
+    cursor: pointer;
+    box-shadow: 0 0 6px rgb(16, 19, 20);
+}
+
+#work h1 {
+    font-size: 4rem;
+    font-family: 'Alegreya', serif;
+    color: rgb(15, 148, 135);
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* Contact Section */
+
+#contact {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+
+#contact h1 {
+    font-size: 4rem;
+    display: block;
+    font-family: 'Alegreya', serif;
+    color: rgb(15, 148, 135);
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1px;
+}
+
+#contact-box input, #contact-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+
+#contact-box form {
+    width: 40%;
+}
+
+#contact-box label {
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
+
+.button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    margin: auto 28.5rem;
+    width: 625.67px;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+
+.button5:hover {
+    background-color: #43964a;
+    color: white;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 9px 20px;
+    text-align: center;
+}
+.center{
+    display: inline-block;
+}
+.links{
+    display: inline-block;
+    margin-left: 61rem;
+}
+.links a img{
+    opacity: 0.7;
+}
+.links a img:hover{
+    opacity: 1;
+}
